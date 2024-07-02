@@ -1,0 +1,21 @@
+{
+    "name": "siraji/turbo-addons",
+    "description": "A Simple and Awesome widgets for Elementor Plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "siraji"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    
+    "autoload":{ 
+       "psr-4":{
+        "turbo\\addons\\": "includes/"
+
+       } ,
+       "files" : [] 
+    }
+}
